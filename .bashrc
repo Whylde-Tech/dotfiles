@@ -7,7 +7,7 @@ eval "$(starship init bash)"
 [[ $- != *i* ]] && return
 export PATH=$PATH:/home/lee/bin
 export EDITOR='nvim'
-
+export BROWSER='firefox'
 #alias ls='ls --color=auto'
 alias vim='nvim'
 alias ls='exa -la --icons --group-directories-first'
