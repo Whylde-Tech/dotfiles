@@ -8,6 +8,7 @@ eval "$(starship init bash)"
 export PATH=$PATH:/home/lee/bin
 export EDITOR='nvim'
 export BROWSER='firefox'
+export TERMINAL='alacritty'
 #alias ls='ls --color=auto'
 alias vim='nvim'
 alias ls='exa -la --icons --group-directories-first'
