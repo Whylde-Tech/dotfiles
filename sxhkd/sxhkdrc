@@ -15,7 +15,7 @@ super + o
 	~/.config/rofi/launchers/launcher.sh &
 
 super + shift + o
-	rofi -show drun
+	~/.config/rofi/launchers/launcher
 
 # make sxhkd reload its configuration files:
 super + Escape
