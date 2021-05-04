@@ -2,6 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
+sh -c "rclone --vfs-cache-mode writes mount \"one drive\": ~/OneDrive"
 #bash ~/.config/polybar/launch.sh --forest
 ~/.config/polybar/forest/launch.sh &
 
